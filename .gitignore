@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project files
+.tool-versions
+*.bin
+*/.vscode/*
+*/__pycache__/*
