@@ -1,1 +1,4 @@
 .tool-versions
+*.bin
+*/.vscode/*
+*/__pycache__/*
