@@ -8,9 +8,9 @@ Message that represent a Date's data.
 
 message Date{
     //Integer that represents an year. should vary from 1 to 99999. If led in blank will represent a date without year.
-    int32 Year=1;
+    int32 year=1;
     //Integer that represents months. Must be between 1 and 12.
-    int32 Month=2;
+    int32 month=2;
     //Integer that represents a month day. Must be between 1 and 31.
-    int32 Day=3;
+    int32 day=3;
 }

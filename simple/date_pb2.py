@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\ndate.proto\x12\x04\x64\x61te\"0\n\x04\x44\x61te\x12\x0c\n\x04Year\x18\x01 \x01(\x05\x12\r\n\x05Month\x18\x02 \x01(\x05\x12\x0b\n\x03\x44\x61y\x18\x03 \x01(\x05\x62\x06proto3'
+  serialized_pb=b'\n\ndate.proto\x12\x04\x64\x61te\"0\n\x04\x44\x61te\x12\x0c\n\x04year\x18\x01 \x01(\x05\x12\r\n\x05month\x18\x02 \x01(\x05\x12\x0b\n\x03\x64\x61y\x18\x03 \x01(\x05\x62\x06proto3'
 )
 
 
@@ -34,21 +34,21 @@ _DATE = _descriptor.Descriptor(
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='Year', full_name='date.Date.Year', index=0,
+      name='year', full_name='date.Date.year', index=0,
       number=1, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Month', full_name='date.Date.Month', index=1,
+      name='month', full_name='date.Date.month', index=1,
       number=2, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='Day', full_name='date.Date.Day', index=2,
+      name='day', full_name='date.Date.day', index=2,
       number=3, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
